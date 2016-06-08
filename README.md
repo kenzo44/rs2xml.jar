@@ -2,9 +2,9 @@
 
 Populate JTable with data from any database...
 
-  Connection con = getConnection();
+  	Connection con = getConnection();
 
-  PreparedStatement statement = con.prepareStatement("SELECT * FROM table");
+  	PreparedStatement statement = con.prepareStatement("SELECT * FROM table");
 					
 	ResultSet rs = statement.executeQuery();
 					
